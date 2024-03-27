@@ -171,7 +171,10 @@
             <div class="container contact">
                 <h1>Contact me 📧</h1>
             </div>
-            <form class="row g-3" action="https://formspree.io/f/xayrpqda" method="POST">
+            <form class="row g-3" action="https://api.web3forms.com/submit" method="POST">
+                <input type="hidden" name="access_key" value="242d14a1-4130-4a8f-a506-93c09c56137d">
+                <input type="hidden" name="subject" value="Contact form filled from sdheeraj.is-a.dev">
+                <input type="hidden" name="redirect" value="https://sdheeraj.is-a.dev/contact-submit.html">
               <div class="col-md-6">
                 <label for="firstName" class="form-label">First Name</label>
                 <input type="text" class="form-control" name="name" id="firstName" placeholder="e.g. Calvin" required>
@@ -195,7 +198,7 @@
               <div class="col-md-12 subbutton"> 
                 <button type="submit" class="btn btn-primary">Submit</button>
               </div>
-              
+
             </form>
         </div>
 
