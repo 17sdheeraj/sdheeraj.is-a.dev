@@ -553,6 +553,10 @@ input[type=email]:focus{
         font-size: 1.05rem;
     }
 
+    .cc1{
+        font-size: 0.03rem;
+    }
+
     .form-control1{
         background-color : var(--slate);
         border-color: var(--slate); 
@@ -967,3 +971,42 @@ input[type=email]:focus{
     font-size: 25px;
 }
 
+.education, .certifications {
+    margin-top: 300px;
+    height: 100%;
+    width: 100%;
+}
+
+.project_holders {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    width: 100%;
+}
+
+.ss {
+    background-color: #112240;
+    height: 300px;
+    border-radius: 16px;
+    border-width: 4px;
+    width: 50rem;
+    transition: transform 0.3s ease;
+}
+
+.ss:hover {
+    transform: scale(1.1);
+}
+
+.cardt {
+    color: var(--slate);
+    font-size: 20px;
+}
+
+.card-text cc1{
+    font-size: 0.01rem;
+}
+
+.card-link a {
+    color: var(--green-bright);
+    font-size: 15px;
+}
