@@ -1010,3 +1010,32 @@ input[type=email]:focus{
     color: var(--green-bright);
     font-size: 15px;
 }
+
+body {
+    --sidebar-track-color: #112240;
+    --sidebar-thumb-color: #64ffda;
+    --sidebar-size: 15px;
+    cursor: url("https://cloud-lc6b7v22c-hack-club-bot.vercel.app/0cursor.png"), auto;
+  }
+  
+  body::-webkit-scrollbar {
+    width: var(--sidebar-size)
+  }
+  
+  body::-webkit-scrollbar-track {
+    background: var(--sidebar-track-color);
+    border-radius: 15px;
+  }
+  
+  body::-webkit-scrollbar-thumb {
+    background: var(--sidebar-thumb-color);
+    border-radius: 15px;
+    border: 2px solid #112240;
+  }
+  
+  @supports not selector(::-webkit-scrollbar) {
+    body {
+      scrollbar-color: var(--sidebar-thumb-color)
+                       var(--sidebar-track-color);
+    }
+  }
